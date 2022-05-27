@@ -1,0 +1,48 @@
+
+
+<head id="head1">
+    <title>Voice Recognition Convertor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+
+<body id="body1">
+  <a href="" id="link" download = "my_selfie.png"></a>
+    <center>
+
+   
+    <h1 id="title">Collage Web App</h1>
+    <div>
+        <h4 id="instruct">As soon as the pop-up appears, please click allow. After you've spoken a command,</h2>
+        <h3 id="instructions">Say "Selfie" for taking your selfies and to make a collage</h3>
+        <textarea id="voiceinput" readonly="true"></textarea>
+        <br>
+        <button onclick="Start()" id="allowbutton" class="btn btn-primary">Start</button>
+    </div>
+    <label id="weblabel">Your Webcam:</label>
+    <div id="camera">
+
+    </div>
+    <label id="selfielabel">Your selfie will display here:</label>
+    <div class="row">
+        <div id="result1" class="column">
+          <img src="">
+        </div>
+        <div id="result2" class="column">
+          <img src="">
+        </div>
+        <div id="result3" class="column">
+          <img src="">
+        </div>
+      </div>
+      
+    </center>
+    <div class="copy_right_footer">
+        Developed by Saketh Velagaleti
+    </div>
+    <script src="main.js"></script>
+</body>
